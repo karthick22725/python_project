@@ -1,37 +1,3 @@
-'''INSERT INTO table_name (column1, column2, column3)
-VALUES (value1, value2, value3);
-
-
-UPDATE table_name
-SET column1 = value1, column2 = value2
-WHERE condition;
-
-DELETE FROM table_name
-WHERE condition;
-
-SELECT column1, column2 
-FROM table_name
-WHERE condition;
-
-CREATE TABLE table_name (
-    column1 datatype constraint,
-    column2 datatype constraint,
-    column3 datatype,
-   PRIMARY KEY (column1)
-);
-
-
-CREATE DATABASE my_database;
-
-for row in connection.execute("SELECT name FROM sqlite_master WHERE type='table'"):
-    print(row)
-
-    print("=" * 30)
-    print("      STUDENT MANAGEMENT")
-    print("=" * 30)
-
-    print('{:>5} {:>5} {:>5} {:>5}'.format(row[0],row[1],row[2],row[3]))
-'''
 import sqlite3
 
 connection = sqlite3.connect("student.db")
