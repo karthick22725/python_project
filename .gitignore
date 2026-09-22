@@ -1,0 +1,12 @@
+studentdata.db
+student.db
+student.txt
+student_db.py
+student_management1.py
+student_management2.py
+student_managementt.py
+sample.py
+backend_project/
+__pycache__/
+*.pyc
+.vscode/
